@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h2>이름</h2>
+<h2>정보</h2>
 
 <p>이름을 입력하시오:</p>
 
@@ -11,8 +11,14 @@
   <input type="text" id="fname" name="fname" value="길동"><br>
   <label for="lname">성:</label><br>
   <input type="text" id="lname" name="lname" value="홍"><br><br>
-  <input type="submit" value="Submit">
 </form> 
+
+<p>생년월일을 입력하시오:</p>
+
+<form action="/action_page.php">
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+</form>
 
 
 
@@ -61,6 +67,14 @@
       <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
       <label for="javascript">JavaScript</label>
 </form> 
+
+<input type="submit" value="Submit">
+
+
+<p>제출 날짜 입력</p>
+<form>
+<input type="date"
+</form>
 
 
 </body>

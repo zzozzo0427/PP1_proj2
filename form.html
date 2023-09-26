@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>이름</h2>
+
+<p>이름을 입력하시오:</p>
+
+<form action="/action_page.php">
+  <label for="fname">이름:</label><br>
+  <input type="text" id="fname" name="fname" value="길동"><br>
+  <label for="lname">성:</label><br>
+  <input type="text" id="lname" name="lname" value="홍"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+
+<h2>Collage Grade</h2>
+
+<p>학년을 고르시오:</p>
+
+<form>
+  <input type="radio" id="freshman" name="collage_grade" value="freshman">
+  <label for="freshman">1학년</label><br>
+  <input type="radio" id="sophomore" name="collage_grade" value="sophomore">
+  <label for="sophomore">2학년</label><br>
+  <input type="radio" id="junior" name="collage_grade" value="junior">
+  <label for="junior">3학년</label><br>
+<input type="radio " id="senior" name="collage_grade" value="senior">
+<label for="senior">4학년</label><br>
+</form> 
+
+
+
+<h2>학부</h2>
+
+<p>본인의 학부를 선택하시오:</p>
+
+<form action="/action_page.php">
+  <label for="major">Choose a car:</label>
+  <select id="major" name="major">
+    <option value="SpatialEnvironment">공간환경시스템공학부</option>
+    <option value="MechanicalControl">기계제어공학부</option>
+    <option value="ComputerElectric">전산전자공학부</option>
+  </select>
+  <input type="submit">
+</form>
+
+
+
+<h2>자신 있는 언어를 고르시오</h2>
+
+<p>가장 자신 있는 <strong>Web language</strong>를 고르시오:</p>
+
+<form>
+      <input type="checkbox" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="checkbox" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+    </form> 
+
+
+</body>
+</html>
+
